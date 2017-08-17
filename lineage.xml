@@ -70,4 +70,6 @@
 
   <remove-project name="platform/system/vold"/>
   <project path="system/vold" name="lineage-next/android_system_vold" revision="lineage-15.0_master" remote="github"/>
+
+  <project path="vendor/lineage" name="lineage-next/android_vendor_lineage" revision="lineage-15.0_master" remote="github"/>
 </manifest>
