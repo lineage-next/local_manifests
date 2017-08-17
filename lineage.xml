@@ -2,6 +2,8 @@
 <manifest>
   <remote name="github" fetch="https://github.com/"/>
 
+  <project path="local_manifests" name="lineage-next/local_manifests" revision="lineage-15.0" remote="github"/>
+
   <remove-project name="platform/bionic"/>
   <project path="bionic" name="lineage-next/android_bionic" revision="lineage-15.0_master" remote="github"/>
 
@@ -55,18 +57,17 @@
   <project path="packages/apps/Nfc" name="lineage-next/android_packages_apps_Nfc" revision="lineage-15.0_master" remote="github"/>
 
   <remove-project name="platform/system/bt"/>
-  <project path="sytem/bt" name="lineage-next/android_system_bt" revision="lineage-15.0_master" remote="github"/>
+  <project path="system/bt" name="lineage-next/android_system_bt" revision="lineage-15.0_master" remote="github"/>
 
   <remove-project name="platform/system/core"/>
-  <project path="sytem/core" name="lineage-next/android_system_core" revision="lineage-15.0_master" remote="github"/>
+  <project path="system/core" name="lineage-next/android_system_core" revision="lineage-15.0_master" remote="github"/>
 
   <remove-project name="platform/system/netd"/>
   <project path="system/netd" name="lineage-next/android_system_netd" revision="lineage-15.0_master" remote="github"/>
 
   <remove-project name="platform/system/sepolicy"/>
-  <project path="sytem/sepolicy" name="lineage-next/android_system_sepolicy" revision="lineage-15.0_master" remote="github"/>
+  <project path="system/sepolicy" name="lineage-next/android_system_sepolicy" revision="lineage-15.0_master" remote="github"/>
 
   <remove-project name="platform/system/vold"/>
-  <project path="sytem/vold" name="lineage-next/android_system_vold" revision="lineage-15.0_master" remote="github"/>
+  <project path="system/vold" name="lineage-next/android_system_vold" revision="lineage-15.0_master" remote="github"/>
 </manifest>
-
