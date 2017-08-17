@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" fetch="https://github.com/"/>
+
+  <remove-project name="platform/bionic"/>
+  <project path="bionic" name="lineage-next/android_bionic" revision="lineage-15.0_master" remote="github"/>
+
+  <remove-project name="platform/bootable/recovery"/>
+  <project path="bootable/recovery" name="lineage-next/android_bootable_recovery" revision="lineage-15.0_master" remote="github"/>
+
+  <remove-project name="platform/build"/>
+  <project path="build/make" name="lineage-next/android_build_make" revision="lineage-15.0_master" remote="github" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <remove-project name="platform/build/soong"/>
+  <project path="build/soong" name="lineage-next/android_build_soong" revision="lineage-15.0_master" remote="github" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="external/libnfc-nxp" name="lineage-next/android_external_libnfc-nxp" revision="lineage-15.0_master" remote="github"/>
+
+  <remove-project name="platform/frameworks/av"/>
+  <project path="frameworks/av" name="lineage-next/android_frameworks_av" revision="lineage-15.0_master" remote="github"/>
+
+  <remove-project name="platform/frameworks/base"/>
+  <project path="frameworks/base" name="lineage-next/android_frameworks_base" revision="lineage-15.0_master" remote="github"/>
+
+  <remove-project name="platform/frameworks/native"/>
+  <project path="frameworks/native" name="lineage-next/android_frameworks_native" revision="lineage-15.0_master" remote="github"/>
+
+  <remove-project name="platform/hardware/interfaces"/>
+  <project path="hardware/interfaces" name="lineage-next/android_hardware_interfaces" revision="lineage-15.0_master" remote="github"/>
+
+  <remove-project name="platform/hardware/qcom/audio"/>
+  <project path="hardware/qcom/audio" name="lineage-next/android_hardware_qcom_audio" revision="lineage-15.0_master" remote="github"/>
+
+  <remove-project name="platform/hardware/qcom/display"/>
+  <project path="hardware/qcom/display" name="lineage-next/android_hardware_qcom_display" revision="lineage-15.0_master" remote="github"/>
+
+  <remove-project name="platform/hardware/qcom/media"/>
+  <project path="hardware/qcom/media" name="lineage-next/android_hardware_qcom_media" revision="lineage-15.0_master" remote="github"/>
+
+  <remove-project name="platform/hardware/ril"/>
+  <project path="hardware/ril" name="lineage-next/android_hardware_ril" revision="lineage-15.0_master" remote="github"/>
+
+  <remove-project name="platform/packages/apps/Nfc"/>
+  <project path="packages/apps/Nfc" name="lineage-next/android_packages_apps_Nfc" revision="lineage-15.0_master" remote="github"/>
+
+  <remove-project name="platform/system/bt"/>
+  <project path="sytem/bt" name="lineage-next/android_system_bt" revision="lineage-15.0_master" remote="github"/>
+
+  <remove-project name="platform/system/core"/>
+  <project path="sytem/core" name="lineage-next/android_system_core" revision="lineage-15.0_master" remote="github"/>
+
+  <remove-project name="platform/system/netd"/>
+  <project path="system/netd" name="lineage-next/android_system_netd" revision="lineage-15.0_master" remote="github"/>
+
+  <remove-project name="platform/system/sepolicy"/>
+  <project path="sytem/sepolicy" name="lineage-next/android_system_sepolicy" revision="lineage-15.0_master" remote="github"/>
+
+  <remove-project name="platform/system/vold"/>
+  <project path="sytem/vold" name="lineage-next/android_system_vold" revision="lineage-15.0_master" remote="github"/>
+</manifest>
+
