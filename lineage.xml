@@ -29,6 +29,9 @@
 
   <project path="external/libnfc-nxp" name="lineage-next/android_external_libnfc-nxp" revision="lineage-15.0_master" remote="github"/>
 
+  <remove-project name="platform/external/tinycompress"/>
+  <project path="external/tinycompress" name="lineage-next/android_external_tinycompress" revision="lineage-15.0_master" remote="github"/>
+
   <remove-project name="platform/frameworks/av"/>
   <project path="frameworks/av" name="lineage-next/android_frameworks_av" revision="lineage-15.0_master" remote="github"/>
 
@@ -40,6 +43,9 @@
 
   <remove-project name="platform/hardware/interfaces"/>
   <project path="hardware/interfaces" name="lineage-next/android_hardware_interfaces" revision="lineage-15.0_master" remote="github"/>
+
+  <remove-project name="platform/hardware/libhardware"/>
+  <project path="hardware/libhardware" name="lineage-next/android_hardware_libhardware" revision="lineage-15.0_master" remote="github"/>
 
   <remove-project name="platform/hardware/qcom/audio"/>
   <project path="hardware/qcom/audio" name="lineage-next/android_hardware_qcom_audio" revision="lineage-15.0_master" remote="github"/>
@@ -63,6 +69,9 @@
 
   <remove-project name="platform/system/core"/>
   <project path="system/core" name="lineage-next/android_system_core" revision="lineage-15.0_master" remote="github"/>
+
+  <remove-project name="platform/system/media"/>
+  <project path="system/media" name="lineage-next/android_system_media" revision="lineage-15.0_master" remote="github"/>
 
   <remove-project name="platform/system/netd"/>
   <project path="system/netd" name="lineage-next/android_system_netd" revision="lineage-15.0_master" remote="github"/>
