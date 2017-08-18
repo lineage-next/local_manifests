@@ -21,6 +21,9 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <remove-project name="platform/build/kati"/>
+  <project path="build/kati" name="lineage-next/android_build_kati" revision="lineage-15.0_master" remote="github" />
+
   <remove-project name="platform/build/soong"/>
   <project path="build/soong" name="lineage-next/android_build_soong" revision="lineage-15.0_master" remote="github" >
     <linkfile src="root.bp" dest="Android.bp" />
