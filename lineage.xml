@@ -50,6 +50,8 @@
   <remove-project name="platform/hardware/qcom/media"/>
   <project path="hardware/qcom/media" name="lineage-next/android_hardware_qcom_media" revision="lineage-15.0_master" remote="github"/>
 
+  <remove-project name="platform/hardware/qcom/power"/>
+
   <remove-project name="platform/hardware/ril"/>
   <project path="hardware/ril" name="lineage-next/android_hardware_ril" revision="lineage-15.0_master" remote="github"/>
 
