@@ -62,6 +62,9 @@
   <project path="hardware/qcom/audio-caf/msm8960" name="lineage-next/android_hardware_qcom_audio" revision="lineage-15.0-caf-8960" remote="github"/>
   <project path="hardware/qcom/audio-caf/msm8996" name="lineage-next/android_hardware_qcom_audio" revision="lineage-15.0-caf-8996" remote="github"/>
 
+  <remove-project name="platform/hardware/qcom/camera"/>
+  <project path="hardware/qcom/camera" name="lineage-next/android_hardware_qcom_camera" revision="lineage-15.0_master" remote="github"/>
+
   <remove-project name="platform/hardware/qcom/display"/>
   <project path="hardware/qcom/display" name="lineage-next/android_hardware_qcom_display" revision="lineage-15.0_master" remote="github"/>
   <project path="hardware/qcom/display-caf/msm8960" name="lineage-next/android_hardware_qcom_display" revision="lineage-15.0-caf-8960" remote="github"/>
