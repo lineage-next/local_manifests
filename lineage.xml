@@ -27,6 +27,8 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="device/lineage/sepolicy" name="lineage-next/android_device_lineage_sepolicy" revision="lineage-15.0_master" remote="github" />
+
   <project path="external/libnfc-nxp" name="lineage-next/android_external_libnfc-nxp" revision="lineage-15.0_master" remote="github"/>
 
   <remove-project name="platform/external/tinycompress"/>
