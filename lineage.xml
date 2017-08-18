@@ -34,6 +34,9 @@
 
   <project path="external/libnfc-nxp" name="lineage-next/android_external_libnfc-nxp" revision="lineage-15.0_master" remote="github"/>
 
+  <remove-project name="platform/external/selinux"/>
+  <project path="external/selinux" name="lineage-next/android_external_selinux" revision="lineage-15.0_master" remote="github"/>
+
   <remove-project name="platform/external/tinycompress"/>
   <project path="external/tinycompress" name="lineage-next/android_external_tinycompress" revision="lineage-15.0_master" remote="github"/>
 
