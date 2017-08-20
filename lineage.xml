@@ -84,6 +84,8 @@
   <remove-project name="platform/packages/apps/Nfc"/>
   <project path="packages/apps/Nfc" name="lineage-next/android_packages_apps_Nfc" revision="lineage-15.0_master" remote="github"/>
 
+  <project path="packages/apps/Trebuchet" name="lineage-next/android_packages_apps_Trebuchet" revision="lineage-15.0_master" remote="github"/>
+
   <remove-project name="platform/system/bt"/>
   <project path="system/bt" name="lineage-next/android_system_bt" revision="lineage-15.0_master" remote="github"/>
 
