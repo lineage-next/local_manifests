@@ -81,8 +81,14 @@
   <remove-project name="platform/hardware/ril"/>
   <project path="hardware/ril" name="lineage-next/android_hardware_ril" revision="lineage-15.0_master" remote="github"/>
 
+  <project path="packages/apps/Eleven" name="lineage-next/android_packages_apps_Eleven" revision="lineage-15.0_master" remote="github"/>
+
+  <project path="packages/apps/Jelly" name="lineage-next/android_packages_apps_Jelly" revision="lineage-15.0_master" remote="github"/>
+
   <remove-project name="platform/packages/apps/Nfc"/>
   <project path="packages/apps/Nfc" name="lineage-next/android_packages_apps_Nfc" revision="lineage-15.0_master" remote="github"/>
+
+  <project path="packages/apps/Recorder" name="lineage-next/android_packages_apps_Recorder" revision="lineage-15.0_master" remote="github"/>
 
   <project path="packages/apps/Trebuchet" name="lineage-next/android_packages_apps_Trebuchet" revision="lineage-15.0_master" remote="github"/>
 
